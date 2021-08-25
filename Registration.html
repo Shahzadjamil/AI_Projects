@@ -12,34 +12,34 @@
     <div class="title">
       Registration Form
     </div>
-    <div class="form">
+    <div class="form" name="form">
        <div class="inputfield">
           <label>User Name</label>
-          <input type="text" class="input" placeholder="please enter user name">
+          <input type="text" class="input" placeholder="please enter user name" name="user_Name">
        </div>  
         
         <div class="inputfield">
           <label>Email ID</label>
-          <input type="text" class="input" placeholder="please enter email id">
+          <input type="text" class="input" placeholder="please enter email id" name="email">
        </div> 
        <div class="inputfield">
           <label>Password</label>
-          <input type="password" class="input" placeholder="please enter password">
+          <input type="password" class="input" placeholder="please enter password" name="password01">
        </div>  
       <div class="inputfield">
           <label>Confirm Password</label>
-          <input type="password" class="input" placeholder="please confirm password">
+          <input type="password" class="input" placeholder="please confirm password" name="password02">
        </div> 
         <div class="inputfield">
           <label>Date of Joining</label>
-          <input type="text" class="input" placeholder="please enter DOJ as dd-mm-yyyy">
+          <input type="text" class="input" placeholder="please enter DOJ as dd-mm-yyyy" name="DOJ">
        </div>  
         <div class="inputfield">
           <label>Team</label>
           <div class="custom_select">
-            <select>
+            <select name="team">
               <option value="">Select</option>
-              <option value="delvoper">Developer</option>
+              <option value="delevoper">Developer</option>
               <option value="tester">Tester</option>
               <option value="manager">Manager</option>
               <option value="analyst">Analyst</option>
@@ -49,7 +49,7 @@
        <div class="inputfield">
           <label>Working Role</label>
           <div class="custom_select">
-            <select>
+            <select name="role">
               <option value="">Select</option>
               <option value="developement">Developement</option>
               <option value="administration">Administration</option>
@@ -59,12 +59,12 @@
        </div>
       <div class="inputfield">
           <label>Backup Person</label>
-          <input type="text" class="input">
+          <input type="text" class="input" name="backup_Person">
        </div> 
       <div class="inputfield">
           <label>Job Nature</label>
           <div class="custom_select">
-            <select>
+            <select name="job_Nature">
               <option value="">Select</option>
               <option value="part_Time">Part Time</option>
               <option value="full_Time">Full Time</option>
@@ -74,16 +74,16 @@
        </div>
       <div class="inputfield terms">
           <label class="check">
-            <input type="checkbox">
+            <input type="checkbox" name="check">
             <span class="checkmark"></span>
           </label>
           <p>Agreed to terms and conditions</p>
        </div> 
       <div class="inputfield">
-        <input type="submit" value="Submit" class="btn">
+        <input type="submit" value="Submit" class="btn" name="submit">
       </div>
       <div class="inputfield">
-        <input type="submit" value="Cancel" class="btn">
+        <input type="submit" value="Cancel" class="btn" name="cancel">
       </div>
     </div>
 </div>	
